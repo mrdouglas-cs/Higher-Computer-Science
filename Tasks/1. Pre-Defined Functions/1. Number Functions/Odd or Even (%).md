@@ -1,0 +1,22 @@
+Odd or Even (%)
+Write a program that uses modulus (%) to check for an odd or even number. The program should:
+
+1. Ask the user to enter a number
+2. Get the remainder when this number is divided by 2
+3. If the remainder is 0, print a message saying that the number is even
+4. Otherwise, print a message saying that the number must be odd
+
+Try to work out the program on your own, but if you need help, use the scaffolding below - it has some code that you will need, but not in order:
+
+```` print("This is an even number") ````
+
+```` if remainder == 0: ````
+
+```` else: ````
+
+```` remainder = num % 2```` 
+
+Further tasks/changes:
+
+* This method could be used to check if a number divides by any other number (not just 2). Modify the program to check for multiples of three. After checking for the odd/even number, add another if statement that prints a message stating whether this number is a multiple of 3.
+* Replace the user input with a random number between 1 and 100. Print the random number, then print whether it is odd/even, as above.
