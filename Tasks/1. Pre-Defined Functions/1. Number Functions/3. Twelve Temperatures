@@ -1,0 +1,30 @@
+# Twelve Temperatures
+
+Write a program that asks the user for twelve temperatures, using a loop, and stores them in an array.
+
+---
+#### Task 1 - Get temperatures
+The program starts with a list of 12 floating-point numbers. Write a loop that repeats 12 times, and asks the user to enter each number as a float. Store that number in the list/array.
+
+Try to do this part yourself, but if you're stuck, use the lines of code below as a scaffold - they are not in order:
+
+`for i in range(0, 12):`
+
+`temps[i] = float(input("......"))`
+
+---
+#### Task 2 - Convert floating points to integer
+Add a second loop that loops through all of the temperatures:
+
+`for n in range(0, 12):`
+
+Inside this loop, convert each of the floating-point numbers to an integer, and print this:
+
+`convert_to_int = int(temps[n])`
+
+`print(convert_to_int)`
+
+---
+Additional tasks/modifications:
+* Add a running total to the program. Set up a variable called `total`, and add each temperature to the total as it is entered. Show the total at the end. You can choose either to add the floating-point numbers or the integers.
+* Add code that checks if each temperature is odd or even, after it's been entered. Display this to the user.
