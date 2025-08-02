@@ -1,0 +1,25 @@
+# Forename and Surname Initials
+
+Write a program that uses substrings to find a person's initials. The program should ask them to enter their first name, and second name, as separate strings.
+
+Read the code carefully. This code works for one initial. Modify the code to ask for the surname, and generate a second initial. The two initials should be output together - for example, Sideshow Bob would be known as "SB".
+
+---
+
+# Starter Code
+
+```
+# Get initials from first name and surname, using two separate substrings
+
+firstname = input("Enter first name:")
+
+first_initial = firstname[0:1]
+sentence = "Your first initial is " + first_initial
+
+print(sentence)
+
+```
+
+---
+Additional tasks/modifications:
+* Add an option for the user to enter a middle initial (for example, if their name was James T. Kirk...) Ask the user for a Y/N answer as to whether they want to enter a middle initial. If they say yes (Y), the program should then ask for the middle initial, and include this in the output. Otherwise, they should only be asked for two names.
