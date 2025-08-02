@@ -1,0 +1,42 @@
+# Best of Five Numbers (find max)
+
+Write a program that asks the user for five numbers. The program should then use a second loop to go through each number and find the maximum.
+
+#Starter Code
+```
+# Find highest of five numbers
+
+# Empty array of real numbers
+five_nums = [float] * 5
+
+# Get each number from the user
+for i in range(0, len(five_nums)):
+  five_nums[i] = float(input("Enter number:"))
+
+# Find the highest number (find max algorithm)
+
+```
+
+---
+The program is already set up to ask for the five numbers.
+You are to complete the *find max* part:
+* Set `max` to the first value in the list
+* Loop the correct number of times
+* Inside the loop, check if the value is greater than `max`
+* If it is, set `max` to the new value
+
+At the end of the program, show an appropriate message, telling the user the highest number.
+
+---
+If you're unsure how to proceed, you can use the code below to help. It is incomplete, and not in the right order. If you're unsure of the order, use the algorithm above.
+
+* `for ... in range (0, 5):`
+* `max = five_nums[...]`
+* `max = five_nums[0]`
+* `if five_nums[...] > max:`
+
+---
+Additional tasks/modifications:
+* Check your notes for the *very similar* find min algorithm (which uses < instead of >). Add another loop to the program that finds the smallest number in the list, and print both results (display the highest and lowest together).
+* Change the program to work for six numbers, instead of five. You should use code like looping `len(five_nums)` times, instead of a number 5. Make sure you change every line of code that mentions the length of the list.
+* The program should work, but could be made more efficient. How could all of the looped code be combined into one loop? Could the min/max code be done just after each number is entered?
