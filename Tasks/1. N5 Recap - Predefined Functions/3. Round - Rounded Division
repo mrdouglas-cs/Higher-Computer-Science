@@ -1,0 +1,22 @@
+# N5-H Recap - Rounded Division
+
+Write a program that asks the user for two numbers. It should divide the first number by the second number, and show the result rounded to two decimal places.
+
+Some of the code you need is below, but not in order:
+
+`num1 = float(input("Enter the first number:"))`
+
+`rounded_num = round(div_num, 2)`
+
+`print("Answer rounded to 2 decimal places:", rounded_num)`
+
+`num2 = [...fill in this blank...]`
+
+`div_num = num1 / num2`
+
+---
+
+Further tasks/modifications:
+* Change the program to round to a different number of decimal places
+* Change the program only to accept integers instead of floats
+* Change the program to ask for a third number, and divide the first by the second, then divide that by the third, before rounding/printing
