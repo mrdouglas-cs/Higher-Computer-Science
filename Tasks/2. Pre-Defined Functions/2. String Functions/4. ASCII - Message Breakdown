@@ -1,0 +1,28 @@
+# Message Breakdown
+
+Write a program that asks the user to enter a message. The program should loop through the characters one at a time, and output their ASCII values. For example, HELLO becomes 72 69 76 76 79.
+
+This program will need both substrings (to get each letter, one at a time) *and* the ASCII/character functions.
+
+There is some suggested code below, but it isn't in the right order:
+
+```
+# Get one character at a time (character at position i to position i+1)
+char = msg[i:i+1]
+```
+
+```
+# Convert the character to an ASCII/Unicode number and display
+num = ord(char)
+print(num)
+```
+
+```
+# Loop for the length of the messaage
+for i in range(0, len(msg)):
+```
+
+---
+Additional tasks/modifications:
+* Modify the program to display the character *and* its ASCII code on the same line, e.g. H 72, E 69, L 76, ...
+You may need to convert the ASCII number using `str()` if you try to concatenate an integer and a string.
