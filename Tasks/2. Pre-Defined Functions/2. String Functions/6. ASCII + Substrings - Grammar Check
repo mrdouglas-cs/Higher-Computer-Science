@@ -1,0 +1,29 @@
+# Grammar Check
+
+Write a program that asks the user to enter a sentence.
+The program should use a substring to check if:
+* The first character in the sentence is a capital letter
+* The last character in the sentence is a full stop
+
+You will also need to use ASCII functions to check for the capital letter (get the substring containing one character, then convert that character to ASCII). The range of capital letters is 65 to 90 - ASCII codes outside that range are not capital letters.
+
+---
+Algorithm to check for capital letter:
+
+1. Ask the user to enter a sentence
+2. Use a substring, e.g. `sentence[0:1]` to find the first character in the sentence
+3. Use a function to find the ASCII number of this character
+4. Check if the ASCII code is between 65 and 90
+5. Display an appropriate message
+
+The program should also check if the last character is a full stop.
+
+---
+Additional tasks/modifications:
+* Change the program to work for a question mark or exclamation mark, as well as a full stop (i.e. any one of the three should be valid).
+* Change the program to display *one* message that summarises both checks. You will need to use if statements with AND/OR logic:
+
+  * The sentence starts with a capital letter and ends with valid punctuation
+  * The sentence starts with a capital letter, but does not end with punctuation
+  * The sentence ends with punctuation, but doesn't start with a capital letter
+  * The sentence does not start with a capital letter or end with punctuation
