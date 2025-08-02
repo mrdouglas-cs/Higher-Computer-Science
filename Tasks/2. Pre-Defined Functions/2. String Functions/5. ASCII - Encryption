@@ -1,0 +1,34 @@
+# Simple Encryption 🔑
+
+This program builds on the previous task. A solution to that program is provided, as your starting point.
+
+
+# Starter Code
+
+```
+# A simple encryption program
+
+msg = input("Enter a message: ")
+
+for i in range(0, len(msg)):
+  char = msg[i:i+1]
+  num = ord(char)
+  print(char, num)
+
+```
+
+This is a simple version of encryption, using what's called a Caesar Cipher. The user should be asked, at the start, to enter an integer 'key'. When the message is broken up into characters, the key should be added to each ASCII number.
+
+For example, if the key of 2 is added to HELLO ( 72 69 76 76 79), the output would be the same numbers, +2 (74, 71, 79, 79, 81).
+
+---
+Tasks/steps:
+
+1. At the start of the program, ask the user to enter a numeric key. You could include input validation to make sure that they have entered an integer > 0.
+2. Inside the loop, add a line of code to add the key to each ASCII number - along the lines of `num = num + key`.
+3. Test that the message is output with the ASCII numbers incremented by the key, as expected.
+
+---
+Converting back to characters:
+* Currently, the program outputs the message as a list of numbers. Inside the loop, use the `chr()` function to turn each `num + key` back into a letter. If the input is HELLO, and the key is 2, the expected output when converted back to a letter is JGMMQ.
+* The program currently prints one letter/number per line. Change the program to have an `encrypted` variable, and add the output to the variable inside the loop using `+`. Then, print the output once at the end of the program, instead of line-by-line.
