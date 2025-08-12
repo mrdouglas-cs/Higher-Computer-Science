@@ -1,0 +1,46 @@
+# Car Records
+
+This program should store data about five cars. It would be more, but I don't want you to type them all in one-by-one!
+
+# Starter Code
+```
+from dataclasses import dataclass
+
+# Car record structure (you should complete)
+@dataclass
+class Car:
+  registration: str
+
+# Array for five cars
+cars_list = ([Car] for x in range(5))
+```
+
+## Complete the Record Structure
+First, complete the record structure. The car record should store each car's registration, make, model, and mileage.
+
+## Create five Records
+Later, we'll learn to import the data from a file. Until then, we'll manually enter the data for each car. We already have the empty array that can store five cars:
+
+```
+cars_list = ([Car] for x in range(5))
+```
+Now, add the following code undeneath to populate the first position in the array with data for one car:
+
+```
+cars_list[0] = Car("SP63 AZY", "Ford", "Focus", 10531)
+```
+Once you're done, this add data for your own for `cars_list[1]`, `cars_list[2]`, etc. (from 0 to 4).
+
+## Traversing the Array
+We can traverse the array, to print the data in each record.
+It's similar, but not identical, to printing data from parallel arrays.
+
+First, add a loop that repeats 5 times:
+```
+for i in range(5):
+  print(cars[i].registration)
+  print(cars[i].mileage)
+```
+What output would you expect from the above program? Make a note in your jotter or a text file, then enter and run the code to test your prediction.
+
+Once this program works, try modify it to produce output in a sentence, so it says something like "SP63 AZY is a Ford Focus, and it's done 10531 miles." The program should print a similar sentence for each car in the array/loop.
