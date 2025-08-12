@@ -1,6 +1,6 @@
 # Countries (writing files) - marked program
 
-**I want to mark this program, so make sure to invite @mrmckaycomp when done**. Treat it like a mini version of the assignment, with similar conditions in class. Always check your practical notes (not just other Repls, or doing things off the top of your head...). You can discuss it, but don't share the repl with each other, this time.
+**I want to mark this program, so make sure to let me know when done**. Treat it like a mini version of the assignment, with similar conditions in class. Always check your practical notes. You can discuss it, but don't copy exact work from each other.
 
 ---
 
