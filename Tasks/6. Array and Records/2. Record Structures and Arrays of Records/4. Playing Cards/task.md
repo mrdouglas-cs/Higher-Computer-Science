@@ -26,9 +26,9 @@ card_file.close()
 For this program, you've been given some code that reads data about a pack of cards from a file. The file is a csv file, and looks like this:
 
 ```
-"king","spades",13
-"queen","spades",12
-"jack","spades",11
+king,spades,13
+queen,spades,12
+jack,spades,11
 ```
 
 ## Create the Record Structure
